@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="Assignment10.css">
+	
+	<title>Carousel</title>
+		
+		
+		
+</head>
+<body>  
+<!--<div class="container"  width="400" height="450" style="border:1px solid #000000;" />
+  
+   -->
+
+
+<div id="imgs" style="visibility: hidden;">
+
+<img src="img1.jpg" id="img"  />
+<img src="img2.jpg" id="img2"  />
+<img src="img3.jpg" id="img3"  />
+<img src="img4.jpg" id="img4"  />
+</div>
+
+
+
+  
+  <!--
+  <div id ="left_holder"><img onClick="slide(-1)" class="left" src= "left_arrow.png"/></div>
+  <div id ="right_holder"><img onClick="slide(1)" class="right" src= "right_arrow.png"/></div>
+  -->
+  <canvas id="myCanvas" width="1000" height="450" style="border:1px solid #d3d3d3;"/>
+  	
+
+  
+
+
+  </canvas>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="Assignment10.js"></script>
+
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+    	console.log("clicked");
+        $("imgs").toggle();
+    });
+});
+</script>
+
+</body>
+</html>
+

@@ -1,0 +1,39 @@
+
+
+ #img, #img2, #img3, #img4{
+	height:100px;
+	width:100px;
+	/* position: absolute; */
+}
+
+#left_holder{
+	height:50 px;
+	width:50px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+
+#right_holder{
+	height:50 px;
+	width:50px;
+	position:absolute;
+	right:0px;
+	top:0px;
+}
+
+#left_holder .left{
+	height:50px;
+	width: 50px;
+	position:absolute;
+	top:40%;
+	left:0px;
+}
+#right_holder .right{
+	height:50px;
+	width: 50px;
+	position:absolute;
+	top:40%;
+	left:0px;
+}
+
